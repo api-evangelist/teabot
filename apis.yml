@@ -1,20 +1,68 @@
 aid: teabot
-name: Teabot
-description: Teabot is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: teaBOT
+description: teaBOT is a Toronto-based hardware startup (Y Combinator, Summer 2015)
+  that builds an automated loose-leaf tea-making robot offered to offices, showrooms,
+  and lounges as an amenity-as-a-service. For a flat monthly fee, teams use the companion
+  teaBOT app to explore premium teas and dispense a custom-blended cup in under 30
+  seconds, which companies such as Google, HubSpot, and McKinsey use as a workplace
+  recruiting and retention perk. Founded by robotics PhD Rehman Merali, teaBOT runs
+  a physical-product and mobile-app business and does not currently publish a public
+  developer API, SDKs, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/teabot/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://teabot.com/wp-content/uploads/2024/02/teaBOT_machine_black.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2013'
+x-yc-batch: Summer 2015
+x-location: Toronto, Canada
+x-founders:
+- Rehman Merali
+x-industry:
+- Food Service
+- Robots & Machines
+- Hardware
+- Robotics
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hardware
+- Robotics
+- Food Service
+- Tea
+- Office Amenity
+- Consumer
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/teabot-domain-security.yml
+- type: Website
+  url: https://teabot.com/
+- type: TermsOfService
+  url: https://teabot.com/terms/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
